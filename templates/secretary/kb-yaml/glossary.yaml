@@ -1,0 +1,8 @@
+# Names, aliases, and what-means-what. Stops the same thing being referred to three ways.
+
+- term: "<alias people actually say>"
+  means: "<canonical name>"
+  where: "<where it lives / who owns it>"
+
+- term: "<acronym>"
+  means: "<expansion + one-line meaning>"

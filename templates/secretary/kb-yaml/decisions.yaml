@@ -1,0 +1,9 @@
+# Decisions of record. Capture the decision AND the reason, so future sessions don't relitigate.
+
+- date: 2026-01-01
+  decision: "Adopt approach A for <thing>"
+  why: "B reintroduced <problem>; A keeps <property> while staying reversible"
+
+- date: 2026-01-01
+  decision: "<another decision>"
+  why: "<reason>"

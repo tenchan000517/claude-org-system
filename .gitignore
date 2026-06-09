@@ -1,0 +1,11 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+.vscode/
+.idea/
+
+# backups created by the system's own safety steps
+*.bak
+*.bak-*
+*.bak/

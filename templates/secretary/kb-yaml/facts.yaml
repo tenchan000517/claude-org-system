@@ -1,0 +1,11 @@
+# Structured facts (settings, paths, accounts, configuration values).
+# Use this form when the secretary grows past a single markdown file.
+# Each entry: a stable id, the fact, and where it came from.
+
+- id: example-mail-setup
+  fact: "Service X mail: IMAP port 993, SMTP port 465; username = full email address"
+  source: "vendor docs / verified on <date>"
+
+- id: example-asset-path
+  fact: "Project Y source assets live at /path/to/source"
+  source: "team convention"

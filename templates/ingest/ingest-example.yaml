@@ -1,0 +1,14 @@
+# Drop new durable facts/decisions here DURING a session, then fold them into the secretary/memory
+# DELIBERATELY later. This keeps working sessions focused and the knowledge base curated rather than
+# accreted mid-task. Name files by timestamp, e.g. 20260101-1430.yaml.
+# (Optional: solo/small setups can just edit the KB directly when the change is small.)
+
+- type: fact          # fact | decision | glossary
+  target: secretary   # where it should eventually land: secretary | <worker> | global
+  content: "<the new fact, decision, or term>"
+  note: "<why it matters / how to apply, if not obvious>"
+
+- type: decision
+  target: secretary
+  content: "<decision made this session>"
+  note: "<the reasoning, so it isn't relitigated>"
