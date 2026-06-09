@@ -1,5 +1,7 @@
 # claude-org-system
 
+*English: this page ／ 日本語: [`ja/README.md`](ja/README.md)*
+
 A minimal, reusable **organizational operating system for AI coding agents** (Claude Code and similar).
 It turns a single overloaded workspace into a clean **leader → secretary → workers** structure, so context
 stays scoped, "where is what?" is always answerable, and the system never silently breaks.
@@ -41,8 +43,10 @@ So simply *doing each project's work in its own directory* splits the pile autom
 - [`framework/`](framework/) — the full model:
   - `01-roles` · `02-orchestration` · `03-memory-model` · `04-safety` · `05-session-lifecycle` (the **core**)
   - `06-judgment` · `07-departments` · `08-governance` (the **org layers**, for multi-domain setups)
+  - `09-intake` · `10-monitoring` · `11-operating-rhythm` (the **operating rituals** that make the loop run)
 - [`templates/`](templates/) — fill-in skeletons for every artifact: leader / worker / department CLAUDE.md,
-  INDEX, HANDOFF, secretary KB (single-file + structured + RAG + ingest), governance (resolution log,
+  INDEX, HANDOFF, secretary KB (single-file + structured + RAG + ingest), inbox (intake & triage),
+  monitor (watchlist), handoff-finalize (verified session close-out), governance (resolution log,
   strategy review), reports
 - [`examples/`](examples/) — worked, fictional examples: [`demo-org/`](examples/demo-org/) (solo) and
   [`multi-department/`](examples/multi-department/) (org scale)

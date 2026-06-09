@@ -1,0 +1,14 @@
+# セッション中に新しい恒久事実/決定をここに落とし、後で意図的に秘書/memory へ畳む。
+# これで作業セッションは集中し、KB は途中堆積でなくキュレートされた状態に保たれる。
+# ファイルはタイムスタンプ名で、例 20260101-1430.yaml。
+# （任意：1人/小規模は、小さな変更なら直接 KB を編集してよい。）
+
+- type: fact          # fact | decision | glossary
+  target: secretary   # 最終的にどこへ：secretary | <作業員> | global
+  content: "<新しい事実・決定・用語>"
+  note: "<なぜ重要か / どう適用するか、自明でなければ>"
+
+- type: decision
+  target: secretary
+  content: "<このセッションで下した決定>"
+  note: "<理由。蒸し返されないように>"

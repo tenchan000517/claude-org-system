@@ -1,0 +1,11 @@
+# 構造化された facts（設定・パス・アカウント・設定値）。
+# 秘書が単票 md を超えて成長したらこの形式を使う。
+# 各エントリ：安定した id、事実、出どころ。
+
+- id: example-mail-setup
+  fact: "サービスX のメール: IMAP ポート 993, SMTP ポート 465; ユーザー名=メールアドレス全体"
+  source: "ベンダードキュメント / <日付>に検証済み"
+
+- id: example-asset-path
+  fact: "案件Y の素材は /path/to/source にある"
+  source: "チームの取り決め"
