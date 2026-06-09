@@ -44,6 +44,7 @@ So simply *doing each project's work in its own directory* splits the pile autom
   - `01-roles` · `02-orchestration` · `03-memory-model` · `04-safety` · `05-session-lifecycle` (the **core**)
   - `06-judgment` · `07-departments` · `08-governance` (the **org layers**, for multi-domain setups)
   - `09-intake` · `10-monitoring` · `11-operating-rhythm` (the **operating rituals** that make the loop run)
+  - `12-operations` (the **runtime layer** — running it on a real machine: tmux/sessions, background processes, logging, notifications)
 - [`templates/`](templates/) — fill-in skeletons for every artifact: leader / worker / department CLAUDE.md,
   INDEX, HANDOFF, secretary KB (single-file + structured + RAG + ingest), inbox (intake & triage),
   monitor (watchlist), handoff-finalize (verified session close-out), governance (resolution log,

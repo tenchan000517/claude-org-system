@@ -42,6 +42,7 @@ AI コーディングエージェント（Claude Code 等）のための、**最
   - `01-roles`・`02-orchestration`・`03-memory-model`・`04-safety`・`05-session-lifecycle`（**コア**）
   - `06-judgment`・`07-departments`・`08-governance`（**組織レイヤ**・多領域向け）
   - `09-intake`・`10-monitoring`・`11-operating-rhythm`（**運用 ritual**・ループを回す）
+  - `12-operations`（**実機レイヤ**・実際に走らせる：tmux/セッション・background プロセス・ログ・通知）
 - [`templates/`](templates/) — 各成果物の穴埋め雛形：leader / worker / department の CLAUDE.md、
   INDEX、HANDOFF、秘書 KB（単票＋構造化＋RAG＋ingest）、inbox（intake & triage）、
   monitor（ウォッチリスト）、handoff-finalize（検証付きセッション締め）、ガバナンス（決議ログ・戦略レビュー）、レポート
